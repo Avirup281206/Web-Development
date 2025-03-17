@@ -1,6 +1,11 @@
 .link {
     color: rgb(0, 113, 133);
     font-size: 15px;
+    transition: opacity 0.15s;
+}
+
+.link:hover {
+    color: rgb(143, 121, 26);
 }
 
 .title {
@@ -22,6 +27,15 @@
     border-radius: 18px;
     font-size: 15px;
     cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.button1:hover {
+    opacity: 0.8;
+}
+
+.button1:active {
+    opacity: 0.5;
 }
 
 .button2 {
@@ -34,4 +48,13 @@
     cursor: pointer;
     margin-left: 7px;
     font-size: 15px;
+    transition: opacity 0.15s;
+}
+
+.button2:hover {
+    opacity: 0.8;
+}
+
+.button2:active {
+    opacity: 0.5;
 }
