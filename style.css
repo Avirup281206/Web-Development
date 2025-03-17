@@ -1,0 +1,27 @@
+body{
+    background: pink;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li{
+    margin: 2px solid black;
+    padding: 10px;
+    background: white;
+}
