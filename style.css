@@ -38,15 +38,13 @@ p {
     margin-bottom: 4px;
 }
 
-.channel-picture{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
-.video-info {
-    display: inline-block;
-    width: 200px;
+.channel-picture{
+    vertical-align: top;
 }
 
 .profile-picture {
