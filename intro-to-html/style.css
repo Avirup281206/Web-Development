@@ -1,38 +1,40 @@
+div, p{
+    margin: 0;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+}
+
 .container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(200, 200, 200, 0.8);
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    background-color: rgb(163, 92, 196);
-    padding: 10px 10px;
 }
 
-.home {
-    font-family: Roboto, Arial;
-    margin-left: 5px;
-    color: white;
-    font-size: 16px;
-}
-
-.search {
-    flex: 1;
-    margin: 0 50px;
-    max-width: 500px;
-    padding: 7px 10px;
-    outline: none;
-    border: 1px solid white;
-    background-color: white;
-    font-size: 16px;
+.profile-photo {
+    height: 50px;
     border-radius: 50vh;
+    margin-right: 10px;
 }
 
-.download {
-    font-family: Roboto, Arial;
-    margin-right: 5px;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 10px 10px;
-    font-size: 16px;
-    border-radius: 3px;
+.email-content {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-between;
 }
