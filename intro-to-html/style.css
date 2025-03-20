@@ -1,57 +1,38 @@
-p {
-    margin: 0;
-    font-family: Roboto Arial;
-}
-
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-}
-.rows {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-}
-
-.data {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
-    width: 100%;
+    background-color: rgb(163, 92, 196);
+    padding: 10px 10px;
 }
 
-.name {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.type {
-    font-size: 18px;
-    color: rgb(96, 96, 96);
-    margin-top: 3px;
-}
-
-.popularity {
-    font-size: 14px;
-    color: rgb(96, 96, 96);
-    margin-top: 3px;
-}
-
-.follow {
-    background-color: rgb(29, 161, 242);
+.home {
+    font-family: Roboto, Arial;
+    margin-left: 5px;
     color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.search {
+    flex: 1;
+    margin: 0 50px;
+    max-width: 500px;
+    padding: 7px 10px;
+    outline: none;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 50vh;
+}
+
+.download {
+    font-family: Roboto, Arial;
+    margin-right: 5px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 3px;
 }
